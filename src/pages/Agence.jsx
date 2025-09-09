@@ -11,6 +11,9 @@ const Agence = () => {
   const imageRef = useRef(null)
 
   const imageArray = [
+        'https://k72.ca/uploads/teamMembers/Carl_480x640-480x640.jpg',
+    'https://k72.ca/uploads/teamMembers/Carl_480x640-480x640.jpg',
+
     'https://k72.ca/uploads/teamMembers/Carl_480x640-480x640.jpg',
     'https://k72.ca/uploads/teamMembers/Olivier_480x640-480x640.jpg',
     'https://k72.ca/uploads/teamMembers/Lawrence_480x640-480x640.jpg',
@@ -68,7 +71,7 @@ const Agence = () => {
               Douze</h1>
           </div>
           <div className='lg:pl-[40%] lg:mt-20 mt-4 p-3'>
-      <p className='text-6xl  '>
+      <p className='text-6xl'>
        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        Our curiosity&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; feeds our creativity. We remain humble and we say no to big egos, even yours. A brand is alive. It has values, a personality, a history. If we forget that, we can make good numbers in the short term, but we kill it in the long term. That's why we're committed to giving perspective, to build influential brands.
       </p>
           </div>
@@ -82,9 +85,3 @@ const Agence = () => {
 }
 
 export default Agence
-
-
-
-
-
-

@@ -1,18 +1,23 @@
-import React from 'react'
-import Video from '../components/Home/Video'
-import HomeHeroText from '../components/Home/HomeHeroText'
-import HomeBottomText from '../components/Home/HomeBottomText'
-function Home() {
+import React, { useRef } from 'react'
+import Video from '../components/home/Video'
+import HomeHeroText from '../components/home/HomeHeroText'
+import HomeBottomText from '../components/home/HomeBottomText'
+import { useGSAP } from '@gsap/react'
+import gsap from 'gsap'
+
+const Home = () => {
+
+
   return (
-    <>
-    <div className="h-screen w-screen  fixed">
-      <Video/>
+    <div className='text-white bg-black'>
+      <div className='h-screen w-screen fixed'>
+        <Video />
+      </div>
+      <div className='h-screen w-screen relative pb-5 overflow-hidden flex flex-col justify-between'>
+        <HomeHeroText />
+        <HomeBottomText />
+      </div>
     </div>
-    <div className="h-screen w-screen flex flex-col justify-between   relative">
-    <HomeHeroText/>
-    <HomeBottomText/>
-    </div>
-</>
   )
 }
 
