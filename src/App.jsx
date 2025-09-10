@@ -7,7 +7,7 @@ import Navbar from './components/Navigation/Navbar'
 import FullScreenNav from './components/Navigation/FullScreenNav'
 function App() {
   return (
-    <div className='overflow-x-hidden '>
+    <div className='text-white'>
       <Navbar/>
       <FullScreenNav/>
     <Routes>
