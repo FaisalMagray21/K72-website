@@ -9,7 +9,7 @@ const Home = () => {
 
 
   return (
-    <div className='text-white bg-black'>
+    <div className='text-white'>
       <div className='h-screen w-screen fixed'>
         <Video />
       </div>
